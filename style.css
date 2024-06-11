@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Prompt", sans-serif;
+    text-decoration: none;
+}
+
+
+/* container section */
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 43.4rem;
+}
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    border-right: 10px solid #d7e1eb;
+    background-color: #dae6f2;
+}
+.content-container {
+    width: 80%;
+    height: 100%;
+    background-color: #dae6f2;
+}
+.dashboard-container {
+    margin: 3.5rem;
+    background-color: #dae6f2;
+    border: white solid 5px;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 8px 5px #0026873f;
+}
+.line-container {
+    margin: 1rem 2rem 0 2rem;
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.line-container-hover:hover .text-hover { 
+    opacity: 100;
+}
+.line-container-hover:hover {
+    background-color: #5581e82c;
+    border-radius: 0.5rem;
+}
+
+
+/* button section */
+.button-container {
+    font-size: 1.5rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 1rem 2rem;
+}
+.nav-button {
+    padding: 0.5rem;
+    color: #5580e8;
+}
+.nav-button:hover {
+    color: white;
+    background-color: #5580e8;
+    border-radius: 0.5rem;
+}
+.create {
+    display: flex;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    background-color: #5580e8;
+}
+/* logo section */
+.logo {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+/* Dashboard section */
+.dashboard-header {
+    font-size: 2rem;
+}
+.dashboard-header-p {
+    color: #5580e8;
+}
+.ceg-line { margin-top: 1rem;  margin-bottom: 1rem; font-weight: 500;}
+.count {
+    width: 8rem;
+    display: flex;
+}
+.name {
+    margin-left: 1rem;
+}
+.text-hover {
+    transition: 0.2s;
+    color: rgba(0, 0, 0, 0.449);
+    opacity: 0;
+}
