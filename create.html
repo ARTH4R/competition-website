@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create | football competition</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav-container">
+            <div class="button-container">
+                <div class="logo-container">
+                    <div class="logo">MEATBALL</div>
+                </div>
+                <a href="./index.html" class="nav-button">Dashboard</a>
+                <a href="" class="nav-button">Overview</a>
+            </div>
+            <a href="./create.html" class="button-container create">CREATE +</a>
+        </div>
+
+        <div class="content-container">
+            <div class="create-container">
+                <div class="dashboard-header-p">competition dashboard</div>
+                <div class="dashboard-header">CREATE</div>
+                 <div class="input-field-container">
+                    <div class="left-container">
+                        <div class="label-text-input">Name</div>
+                        <input class="input-field" type="text" placeholder=" Enter Text">
+
+                        <div class="label-text-input">Slug</div>
+                        <input class="input-field" type="text" placeholder=" Enter Text">
+
+                        <div class="label-text-input">Allowed provinces</div>
+                        <input class="input-field" type="text" placeholder=" Enter Text">
+                    </div>
+
+                    <div class="right-container">
+                        <div class="label-text-input">Max Team (1 - 100)</div>
+                        <input class="input-number-field" type="number" min="1" max="100">
+
+                        <div class="label-text-input">Upload Banner <div class="required">(required)</div></div>
+                        <input class="input-file" type="file" accept="image/png, image/jpg, image/jpeg">
+                    </div>
+                 </div>
+
+                 <div class="bottom-container">
+                    <a href="./index.html" class="cancel-button save-btn-hover">cancel</a>
+                    <a href="./save-com.html" class="save-button save-btn-hover">save</a>
+
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

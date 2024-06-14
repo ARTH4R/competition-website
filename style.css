@@ -5,7 +5,10 @@
     font-family: "Prompt", sans-serif;
     text-decoration: none;
 }
-
+hr {
+    width: 93%;
+    margin: auto;
+} 
 
 /* container section */
 .main-container {
@@ -51,6 +54,7 @@
 }
 
 
+
 /* button section */
 .button-container {
     font-size: 1.5rem;
@@ -67,14 +71,27 @@
     color: white;
     background-color: #5580e8;
     border-radius: 0.5rem;
+    margin-left: 0.3rem;
+    transition: 0.2s;
 }
+
 .create {
     display: flex;
     text-align: center;
+    justify-content: center;
     color: white;
     border-radius: 1rem;
+    height: 3rem;
     background-color: #5580e8;
+    border: 3px solid #5580e8;
 }
+.create:hover {
+    transition: 0.2s;
+    border: 3px solid #5580e8;
+    background-color: #d7e1eb;
+    color: black;
+}
+
 /* logo section */
 .logo {
     font-size: 3rem;
@@ -88,7 +105,7 @@
 .dashboard-header-p {
     color: #5580e8;
 }
-.ceg-line { margin-top: 1rem;  margin-bottom: 1rem; font-weight: 500;}
+.ceg-line { margin-top: 1rem;  margin-bottom: 0.4rem; font-weight: 500; cursor: default;}
 .count {
     width: 8rem;
     display: flex;
@@ -100,4 +117,90 @@
     transition: 0.2s;
     color: rgba(0, 0, 0, 0.449);
     opacity: 0;
+}
+
+/* create page section */
+
+.required { margin-left: 0.5rem;}
+.create-container {
+    margin: 3.5rem;
+    background-color: #dae6f2;
+    border: white solid 5px;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 8px 5px #0026873f;
+}
+.bottom-container {
+    display: flex; 
+    justify-content: flex-end;
+} 
+.label-text-input {
+    display: flex;
+}
+.input-field-container {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.right-container {
+    margin-right: 20rem;
+}
+
+/* field section */
+.input-field {
+    width: 15rem;
+}
+
+/* button section  */
+.save-button {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background-color: #5580e8;
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    border: 2px solid #5580e8;
+}
+.cancel-button {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background-color: #5580e8;
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    border: 2px solid #5580e8;
+}
+.save-btn-hover:hover {
+    transition: 0.2s;
+    background-color: #d7e1eb;
+    border: 2px solid #5580e8;
+    color: black;
+}
+
+
+
+
+/* save-com section */
+.display-saved {
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Header-saved {
+    font-size: 3rem;
+}
+.sus-saved {
+    font-size: 2rem;
+    color: green;
+}
+.next-button {
+    margin-top: 2rem;
+    color: #5580e8;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+.next-button:hover {
+    border: 2px solid rgba(0, 0, 0, 0.327);
 }
