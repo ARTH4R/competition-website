@@ -10,6 +10,7 @@ hr {
     margin: auto;
 } 
 
+
 /* container section */
 .main-container {
     display: flex;
@@ -203,4 +204,46 @@ hr {
 }
 .next-button:hover {
     border: 2px solid rgba(0, 0, 0, 0.327);
+}
+
+
+
+/* overview section */
+.banner-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 93%;
+    height: 15rem;
+    background-color: #e5e5f7;
+    background: repeating-linear-gradient( 45deg, black, black 2px, #e5e5f7 2px, #e5e5f7 25px );
+}
+.banner-container:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}
+.banner-container:hover .banner-text{
+    color: #0048ff;
+    opacity: 100%;
+}
+.banner-text {
+    color: black;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.line-container-none {
+    margin: 1rem 2rem 0 2rem;
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    width: 6rem;
+}
+.boxtop {
+    width: 7rem;
 }
